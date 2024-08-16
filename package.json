@@ -1,14 +1,14 @@
 {
   "name": "university-courses-ui-1",
   "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:university-courses-ui-1": "node dist/university-courses-ui-1/server/server.mjs"
-  },
+"scripts": {
+  "build:ssr": "ng build && ng run university-courses-ui-1:server",
+  "start": "node dist/university-courses-ui-1/server/main.js",
+  "heroku-postbuild": "npm run build:ssr"
+},
+"engines": {
+  "node": "18.x"
+},
   "private": true,
   "dependencies": {
     "@angular-slider/ngx-slider": "^18.0.0",

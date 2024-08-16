@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "outDir": "./dist/university-courses-ui-1/server",
+      "module": "commonjs",
+      "target": "es2019",
+      "types": [
+        "node"
+      ]
+    },
+    "files": [
+      "src/main.server.ts"
+    ],
+    "angularCompilerOptions": {
+      "entryModule": "./src/app/app.server.module#AppServerModule"
+    }
+  }
+  
