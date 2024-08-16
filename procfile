@@ -1,1 +1,1 @@
-web: node dist/university-courses-ui-1/server/main.js
+web: npm run serve:ssr
