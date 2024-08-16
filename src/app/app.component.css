@@ -1,0 +1,69 @@
+.example-form-field {
+  width: 100%;
+  max-width: 100%;
+}
+
+.mat-form-field {
+  display: flex;
+  align-items: center;
+}
+
+.mat-icon {
+  margin-right: 8px;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  box-shadow: none;
+
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  min-width: auto;
+  box-shadow: none;
+
+}
+
+.add-course-button {
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  min-width: 200px;
+  height: 30px;
+}
+
+.add-course-button:hover {
+  background-color: #333;
+}
+
+.example-form-field {
+  display: block;
+  width: 100%;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.mat-paginator {
+  width: 100%;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
